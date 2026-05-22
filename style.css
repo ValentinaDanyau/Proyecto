@@ -1,0 +1,195 @@
+/* CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: "Nunito", sans-serif;
+    color: #333333;
+}
+.header {
+    background-color: #333333;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1 {
+    font-size: 28px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contenedor {
+    padding: 20px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+.seccion-izquierda {
+    flex: 2;
+    height: 500px;
+}
+.seccion-derecha {
+    flex: 1;
+    height: 500px;
+}
+.tarjeta-perfil {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: -2px 8px 21px 1px rgba(0, 0, 0, 0.21);
+    width: 100%;
+    overflow: hidden;
+}
+.tarjeta-encabezado {
+    height: 120px;
+    background-color: #00bcd4;
+}
+.contenido-perfil {
+    padding: 0 40px 40px 40px;
+}
+.foto-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    position: relative;
+    top: -55px;
+}
+.contenido-perfil h2 {
+    font-size: 32px;
+    margin-top: -35px;
+    margin-bottom: 15px;
+}
+.ubicacion {
+    color: #555555;
+    margin-bottom: 10px;
+}
+.profesion {
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 15px;
+}
+.descripcion {
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.editar-perfil {
+    display: inline-block;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.tarjeta-educacion {
+    background-color: white;
+    padding: 30px 40px;
+    width: 92%;
+    border-radius: 15px;
+    box-shadow: -2px 8px 21px 1px rgba(0, 0, 0, 0.21);
+}
+.tarjeta-educacion h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.institucion {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.detalle {
+    color: #555555;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.tarjeta-lateral {
+    background-color: white;
+    border: 2px solid #dddddd;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.tarjeta-lateral h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.conexion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.datos-conexion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.conexion-simple {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+.datos-conexion img {
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    border: 3px solid #00bcd4;
+    object-fit: cover;
+}
+.conexion-simple img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    object-fit: cover;
+}
+.acciones {
+    display: flex;
+    gap: 10px;
+}
+.acciones button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #cc6699;
+    background-color: white;
+    color: #cc6699;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aceptar:hover {
+    background-color: #8bc34a;
+    color: white;
+    border-color: #8bc34a;
+}
+.rechazar:hover {
+    background-color: #e91e63;
+    color: white;
+    border-color: #e91e63;
+}
